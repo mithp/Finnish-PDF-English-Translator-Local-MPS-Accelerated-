@@ -44,3 +44,13 @@ brew install tesseract
 brew install tesseract-lang
 brew install poppler
 brew install libjpeg
+
+brew install tesseract-lang
+# or specifically:
+brew install tesseract --with-fin
+
+python3 -m venv venv
+source venv/bin/activate
+
+pip install -r requirements.txt
+
